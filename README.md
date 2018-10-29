@@ -118,9 +118,9 @@ Collection::make([ 'a', 'b', 'c' ]);
     ->all() === [ 'b', 'a', 'c' ];
 ```
 
-The default behavior `$c->rearrange([ ... ])` is equivalent to `$c->rearrange([ ... ], $c::UNARRANGEABLE_APPEND)`.
+This behavior is controlled by the second argument of the `rearrange()` method. The default behavior `$c->rearrange([ ... ])` is equivalent to `$c->rearrange([ ... ], Collection::UNARRANGEABLE_APPEND)`.
 
-Possible values are:
+Possible values for this parameter are:
 
 Class Constant            | Description
 --------------------------|------------------------

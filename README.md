@@ -1,4 +1,5 @@
 # Collection
+[![Travis](https://img.shields.io/travis/Loilo/Collection.svg?label=unix&logo=travis)](https://travis-ci.org/Loilo/Collection) [![Packagist](https://img.shields.io/packagist/v/loilo/collection.svg)](https://packagist.org/packages/loilo/collection)
 > An extended version of Laravel's collections
 
 This is my very personal extension of Laravel's amazing [Collection](https://laravel.com/docs/collections) class (as extracted by [tightenco/collect](https://github.com/tightenco/collect)). It adds some methods that I need regularly.

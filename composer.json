@@ -1,0 +1,29 @@
+{
+    "name": "loilo/collection",
+    "description": "An extended version of Laravel's collections",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "tightenco/collect": "^5.7",
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Loilo\\Collection\\": "src/",
+            "Loilo\\Collection\\Test\\": "test/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loilo",
+            "email": "florian.reuschel@gmx.de"
+        }
+    ]
+}

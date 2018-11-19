@@ -125,7 +125,7 @@ Possible values for this parameter are:
 
 Class Constant            | Description
 --------------------------|------------------------
-`UNARRANGEABLE_APPEND`    | Appends unarrangeable items before the rearranged ones.
+`UNARRANGEABLE_APPEND`    | Appends unarrangeable items append the rearranged ones.
 `UNARRANGEABLE_PREPEND`   | Prepends unarrangeable items before the rearranged ones.
 `UNARRANGEABLE_PARTITION` | Partitions the return value and maps rearranged and unarrangeable items to the `rearranged` respectively the `unarrangeable` key.
 `UNARRANGEABLE_DISCARD`   | Omits the unarrangeable items from the returned collection.

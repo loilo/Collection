@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "type": "library",
     "require": {
-        "tightenco/collect": "^5.7 || ^7.0",
+        "tightenco/collect": "^5.7 || ^7.0 || ^17.0",
         "php": "^7.1"
     },
     "require-dev": {
